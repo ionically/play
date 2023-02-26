@@ -24,8 +24,8 @@ var str5 = String5.lowercased()
 //print(String2.uppercased() + String3.lowercased(),String1.lowercased(),String4.uppercased() + String5.lowercased())
 
 // You can also concatenate all strings like this and print
-let concatenateStrings = String2.uppercased() + String3.lowercased() + String1.lowercased() + String4.uppercased() + String5.lowercased()
-print(concatenateStrings)
+let concatenateStrings = String2.uppercased() + String3.lowercased() + " " + String1.lowercased() + " " + String4.uppercased() + String5.lowercased()
+concatenateStrings // done by myside
 
 let concatenateStringsWithSpace = String2.uppercased() + String3.lowercased() +  " " + String1.lowercased() + " " + String4.uppercased() + String5.lowercased()
 print(concatenateStringsWithSpace)
