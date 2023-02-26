@@ -30,7 +30,7 @@ let sample = ["Parents", "Pets", "Farmers", "Students", "People", "Teacher", "Pl
 let ans = sample.filter { $0.starts(with: "P") }
 print(ans)
 // Its prints  ["Parents", "Pets", "People", "Plants"]
-
+// Mark: done
 // Assignment : 
 // We have a small software that has an array like this
 let data = ["driving", "sleeper", "onduty","driving", "offduty", "", "driving"]
@@ -39,6 +39,10 @@ let data = ["driving", "sleeper", "onduty","driving", "offduty", "", "driving"]
 // It will only have "driving" in it and no other texts
 // use filter for this
 // final answer will be ["driving", "driving", "driving"]
+let arry = data.filter{$0.starts(with: "driving")}
+arry
+print(arry)
+
 
 
 
