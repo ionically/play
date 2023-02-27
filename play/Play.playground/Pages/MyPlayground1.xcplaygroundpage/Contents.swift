@@ -33,14 +33,13 @@ print(ans)
 // Mark: done
 // Assignment : 
 // We have a small software that has an array like this
-let data = ["driving", "sleeper", "onduty","driving", "offduty", "", "driving"]
+let data = ["driving", "sleeper", "onduty","driving", "offduty", "", "driving","driving-test"]
 
 // We have to create a new array
 // It will only have "driving" in it and no other texts
 // use filter for this
 // final answer will be ["driving", "driving", "driving"]
-let arry = data.filter{$0.starts(with: "driving")}
-arry
+let arry = data.filter{($0 == "driving")}
 print(arry)
 
 
